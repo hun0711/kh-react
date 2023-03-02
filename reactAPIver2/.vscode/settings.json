@@ -1,0 +1,24 @@
+{
+  "editor.tabSize": 4,
+  "editor.fontSize": 18,
+  "editor.fontLigatures": null,
+  "workbench.colorTheme": "Quiet Light",
+  "java.project.importHint": false,
+  "redhat.telemetry.enabled": false,
+  "editor.fontFamily": "CookieRun, D2Coding, Consolas, 'Courier New', monospace",
+  "workbench.startupEditor": "none",
+  "explorer.compactFolders": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "html-css-class-completion.enableEmmetSupport": true,
+  "editor.tokenColorCustomizations": {
+    "comments": "#ffc2c2"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": 1
+}
