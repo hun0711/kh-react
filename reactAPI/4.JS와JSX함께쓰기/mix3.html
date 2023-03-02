@@ -32,7 +32,7 @@
           {/* 왜냐면 JS와 JSX 섞어쓰기가 가능하니까... */}
           {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((number) => (
             //여긴 JS땅임 - key값은 반드시 unique해야 함.
-            <Number2 key={number} number={number} selected={number === 3} />
+            <Number2 key={number} number={number} selected={number == '1' } />
           ))}
         </>
       );

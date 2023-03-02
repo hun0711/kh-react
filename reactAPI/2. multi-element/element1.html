@@ -18,8 +18,8 @@
   <body>
     <div id="root">
       <h1>One</h1>
-      <h1>Two</h1>
-      <h1>Three</h1>
+      <h2>Two</h2>
+      <h3>Three</h3>
     </div>
     <script type="text/babel">
       const rootElement = document.querySelector("#root");
@@ -28,8 +28,8 @@
           className="box"
           children={[
             React.createElement("h1", null, "Zero"),
-            React.createElement("h1", null, "Two"),
-            React.createElement("h1", null, "Three"),
+            React.createElement("h2", null, "Second"),
+            React.createElement("h3", null, "Third"),
           ]}
         />
       );
